@@ -110,7 +110,7 @@ document.getElementById("contactForm").addEventListener("submit", function(event
     if (!valid) return;
 
     // Número do WhatsApp (altere para o seu número real)
-    let whatsappNumber = "5511967076052";
+    let whatsappNumber = "5517981945983";
     let message = `Olá, meu nome é ${name}. Meu CPF/CNPJ é ${cpfCnpj} e gostaria de falar sobre: ${reason}.`;
     let whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
